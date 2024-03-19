@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Primary Meta Tags -->
+
+    <title>Brandy's - Amazing and Awesome Hotel Room's</title>
+    <meta name="title" content="Brandy's - Amazing and Delicious Food" />
+    <meta
+      name="descripion"
+      content="This is a Restaurant html project made by Atul Mishra"
+    />
+
+    <!-- icon -->
+
+    <link rel="icon" href="public/img/favicon.png" type="image/png" />
+
+    <!-- google font link -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap"
+      rel="stylesheet"
+    />
+    <!-- custom css link -->
+
+    <link rel="stylesheet" href="src/style.css" />
+
+    <!-- Bootstrap -->
+
+    <!-- preload images -->
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+
+    <link rel="preload" as="image" href="public/img/Deluxe-room1.jpg" />
+    <link rel="preload" as="image" href="public/img/hotel3.jpg" />
+    <link rel="preload" as="image" href="public/img/suite4.jpg" />
+  </head>
+  <body id="top">
+    <!-- 
+      PRELOADER
+      -->
+
+    <div class="preload" data-preaload>
+      <div class="circle"></div>
+      <p class="text">Brandy's</p>
+    </div>
+
+    <!-- 
+      #TOP BAR
+     -->
+
+    <div class="topbar">
+      <div class="container">
+        <address class="topbar-item text-white shdow">
+          <div class="icon">
+            <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+          </div>
+          <span class="span"
+            >Hotel St, Holy City, Uttar Pradesh, India</span
+          >
+        </address>
+
+        <div class="separator"></div>
+
+        <div class="topbar-item item-2 text-white">
+          <div class="icon">
+            <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+          </div>
+          <span class="span">Daily : 8.00 am to 10.00 pm</span>
+        </div>
+
+        <a href="tel:+919120568942" class="topbar-item link text-decoration-none text-white">
+          <div class="icon">
+            <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+          </div>
+
+          <span class="span">+91 9120568942</span>
+        </a>
+
+        <div class="separator"></div>
+
+        <a href="mailto:atulmishra1997@hotmail.com" class="topbar-item link text-decoration-none text-white">
+          <div class="icon">
+            <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+          </div>
+
+          <span class="span">atulmishra1997@hotmail.com</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- 
+      -#Header
+     -->
+
+    <header class="header" data-header>
+      <div class="container">
+        <a href="#" class="logo">
+          <img
+            src="public/img/Brandys-Hotel-Logo.png"
+            width="155"
+            height="40"
+            alt="Brandy's - Home"
+          />
+        </a>
+
+        <nav class="navbar" data-navbar>
+          <button class="close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+
+          <a href="#" class="logo">
+            <img
+              src="public/img/Brandys-Hotel-Logo.png"
+              width="160"
+              height="50"
+              alt="Brandy's - Home"
+            />
+          </a>
+
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="#home" class="navbar-link hover-underline active text-decoration-none">
+                <div class="separator"></div>
+                <span class="span">Home</span>
+              </a>
+            </li>
+            <li class="navbar-item">
+              <a href="#customer" class="navbar-link hover-underline text-decoration-none text-white">
+                <div class="separator"></div>
+                <span class="span">Customer Details</span>
+              </a>
+            </li>
+            <li class="navbar-item">
+              <a href="#roomType" class="navbar-link hover-underline text-decoration-none text-white">
+                <div class="separator"></div>
+                <span class="span">Room Type</span>
+              </a>
+            </li>
+            <li class="navbar-item">
+              <a href="#amenities" class="navbar-link hover-underline text-decoration-none text-white">
+                <div class="separator"></div>
+                <span class="span">Select Amenities</span>
+              </a>
+            </li>
+            <li class="navbar-item">
+              <a href="#registerPage" class="navbar-link hover-underline text-decoration-none text-white">
+                <div class="separator"></div>
+                <span class="span">Advance & Register</span>
+              </a>
+            </li>
+          </ul>
+
+          <div class="text-center">
+            <p class="headline-1 navbar-title">Visit Us</p>
+
+            <address class="body-4">
+              Restaurant St, Delicious City, Uttar Pradesh, India <br />
+            </address>
+
+            <p class="body-4 navbar-text">Daily : 8.00 am to 10.00 pm</p>
+
+            <a
+              href="mailto:atulmishra1997@hotmail.com"
+              class="body-4 sidebar-link text-decoration-none"
+              >atulmishra1997@hotmail.com</a
+            >
+
+            <div class="separator"></div>
+
+            <p class="contact-label">Booking Request</p>
+
+            <a
+              href="tel:+919120568942"
+              class="body-1 contact-number hover-underline text-decoration-none"
+              >+91 9120568942</a
+            >
+          </div>
+        </nav>
+
+        <a href="#contact" class="btn button-third text-decoration-none p-4 fw-bold" style="background-color: var(--gold-crayola);">
+          <span class="text text-1">Contact Us</span>
+          <span class="text text-2" aria-hidden="true">Contact Us</span>
+        </a>
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <span class="line line-1"></span>
+          <span class="line line-2"></span>
+          <span class="line line-3"></span>
+        </button>
+
+        <div class="overlay" data-nav-toggler data-overlay></div>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!-- 
+          - #HERO
+        -->
+
+        <section class="hero text-center" aria-label="home" id="home">
+          <ul class="hero-slider" data-hero-slider>
+            <li class="slider-item active" data-hero-slider-item>
+              <div class="slider-bg">
+                <img
+                  src="public/img/Deluxe-room1.jpg"
+                  width="1880"
+                  height="950"
+                  alt="Hero-Slider-1"
+                  class="img-cover"
+                />
+              </div>
+
+              <p class="label-2 section-subtitle slider-reveal">
+                your next space
+              </p>
+
+              <h1 class="main-text hero-title slider-reveal ">
+                You always <br>have a choice
+              </h1>
+
+              <p class="body-2 hero-text slider-reveal text-white">
+                Create memories worth sharing at our remarkable haven
+              </p>
+
+              <a href="#customer" class="btn button-third slider-reveal text-decoration-none p-4 fw-bold" style="background-color: var(--gold-crayola);">
+                <span class="text text-1">Book Your Room</span>
+
+                <span class="text text-2" aria-hidden="true"
+                  >Book Your Room</span
+                >
+              </a>
+            </li>
+
+            <li class="slider-item" data-hero-slider-item>
+              <div class="slider-bg">
+                <img
+                  src="public/img/hotel3.jpg"
+                  width="1880"
+                  height="950"
+                  alt="Hero-Slider-2"
+                  class="img-cover"
+                />
+              </div>
+
+              <p class="label-2 section-subtitle slider-reveal">
+                delightful experience
+              </p>
+
+              <h1 class="main-text hero-title slider-reveal">
+                Travel should <br>take you places
+              </h1>
+
+              <p class="body-2 hero-text slider-reveal text-white">
+                Indulge in moments that stay with you forever
+              </p>
+
+              <a href="#customer" class="btn button-third slider-reveal text-decoration-none p-4 fw-bold" style="background-color: var(--gold-crayola);">
+                <span class="text text-1">Book Your Room</span>
+
+                <span class="text text-2" aria-hidden="true"
+                  >Book Your Room</span
+                >
+              </a>
+            </li>
+
+            <li class="slider-item" data-hero-slider-item>
+              <div class="slider-bg">
+                <img
+                  src="public/img/suite4.jpg"
+                  width="1880"
+                  height="950"
+                  alt="Hero-Slider-3"
+                  class="img-cover"
+                />
+              </div>
+
+              <p class="label-2 section-subtitle slider-reveal">
+                amazing & Awesome
+              </p>
+
+              <h1 class="main-text hero-title slider-reveal">
+                Experience the<br> ultimate in hospitality
+              </h1>
+
+              <p class="body-2 hero-text slider-reveal text-white">
+                Luxury, comfort, and memories woven together
+              </p>
+
+              <a href="#customer" class="btn button-third slider-reveal text-decoration-none p-4 fw-bold" style="background-color: var(--gold-crayola);">
+                <span class="text text-1">Book Your Room</span>
+
+                <span class="text text-2" aria-hidden="true"
+                  >Book Your Room</span
+                >
+              </a>
+            </li>
+          </ul>
+
+          <button
+            class="slider-btn prev"
+            aria-label="slide-to-previous"
+            data-prev-btn
+          >
+            <ion-icon name="chevron-back"></ion-icon>
+          </button>
+
+          <button
+            class="slider-btn next"
+            aria-label="slide to next"
+            data-next-btn
+          >
+            <ion-icon name="chevron-forward"></ion-icon>
+          </button>
+
+          <a href="#customer" class="hero-btn has-after text-decoration-none">
+            <img
+              src="public/img/brandys-hotels-icon.png"
+              alt="booking icon"
+              width="48"
+              height="48"
+            />
+
+            <span class="label-2 text-center span">Book A Room</span>
+          </a>
+        </section>
+
+    <!-- 
+        -#Customer-Details
+    -->
+          <section class="hero customer-details" id="customer">
+              <div class="customer-details-home">
+                  <div class="customer-form-card" >
+                      <form class="customer-detail-form slider-item active">
+                          <h1 class="form-heading bi-person-fill section-subtitle slider-reveal" style="padding-top: 20px;">Please Fill Your Details</h1>
+                          <div class="form-page">
+                              <dl class="form-inputs hero-title slider-reveal fs-4">
+                                  <div class="customer-name" style="display: flex; gap: 74px;">
+                                      <dt>Your Name: </dt>
+                                      <dd><input type="text" required name="customer-name" id="customerName" size="45" class="form-control fs-4" style="background-color: aliceblue;"></dd>
+                                      
+                                  </div>
+                                  <div class="customer-date" style="display: flex; gap: 54px;">
+                                      <dt>Check In Date: </dt>
+                                      <dd><input type="date" required name="customerDate" id="customerDate" size="45" class="form-control fs-4" style="background-color: aliceblue;"></dd>
+                                  </div>
+                                  <div class="customer-days" style="display: flex; gap: 39px;">
+                                      <dt>Total No. of Days: </dt>
+                                      <dd><input type="number" required name="customerDays" id="customerDays" size="45" class="form-control fs-4" style="background-color: aliceblue;"></dd>
+                                  </div>
+                                  <div class="customer-persons" style="display: flex; gap: 20px;">
+                                      <dt>Total No. of Persons: </dt>
+                                      <dd><input type="number" required name="customerPersons" id="customerPersons" size="45" class="form-control fs-4" style="background-color: aliceblue;"></dd>
+                                  </div>
+                              </dl>
+                              <a href="#roomType" class="btn button-third hero-text slider-reveal text-decoration-none p-4 fw-bold" style="background-color: var(--gold-crayola);"><span class="text text-1">Save & Continue</span>
+
+                                  <span class="text text-2" aria-hidden="true">Save & Continue</span></a>
+                          </div>
+                      </form>
+                  </div>
+                  <div class="hotel-attendant">
+                      <img src="/public/img/hotel-atten-3.png" alt="" class="attendant-image">
+                  </div>
+              </div>
+          </section>
+
+  <!-- 
+        -#Room Details
+      -->
+
+        <section class="room-type hero" id="roomType">
+          <div class="container-room-type">
+            <div class="room-form">
+              <form class="slider-item active room-select-form">
+                <h1 class=" section-subtitle slider-reveal">Please Select Your Prefered Room Type</h1>
+                <div class="room-img-container hero-title slider-reveal">
+                  <div>
+                    <img src="/public/img/deluxe-room2.jpg" id="roomImage1" alt="" class="deluxe-room">
+                      <div class="room-radio">
+                        <input type="radio" name="roomType" id="roomType1" value="Deluxe-room" class=""><label for="roomType1">Deluxe Room (&#8377;2500/-)</label>
+                      </div>
+                  </div>
+                  <div>
+                    <img src="/public/img/suite-room-5.png" alt="" id="roomImage2" class="suite-room">
+                      <div class="room-radio">
+                        <input type="radio" name="roomType" id="roomType2" value="Suite-room" class="  "><label for="roomType2">Suite Room (&#8377;4000/-)</label>
+                      </div>
+                  </div>
+                </div>  
+                <a href="#amenities" class="btn button-third hero-text slider-reveal text-decoration-none p-4 fw-bold" id="roomSubmit" style="background-color: var(--gold-crayola);"><span class="text text-1">Save & Continue</span>
+
+                  <span class="text text-2" aria-hidden="true">Save & Continue</span></a>
+              </form>
+            </div>
+            <div class="room-attendent">
+              <img src="/public/img/hotel-atten-6.png" alt="Room Attendent" class="room-attendent-img">
+            </div>
+          </div>
+        </section>
+
+        <!-- 
+          #Amenities-Details 
+        -->
+
+        <section class="amenities hero amenities-background" id="amenities">
+          <div class="amenities-container">
+            <div class="ameniti-attendent">
+              <img src="/public/img/hotel-atten-7.png" alt="" class="ameniti-attendent-img">
+            </div>
+            <div class="amenities-form">
+              <form class="slider-item active amenities-form">
+                <h1 class="section-subtitle slider-reveal">Please Select Your Prefered Amenities</h1>
+                <div class="room-img-container hero-title slider-reveal">
+                  <div>
+                    <img src="/public/img/ac-amenity.jpg" alt="" class="deluxe-room">
+                      <div class="room-radio">
+                        <input type="checkbox" name="roomType" id="amenity1" value="Air-Conditioner" class=""><label for="amenity1">Air Conditioner (&#8377;1000/-)</label>
+                      </div>
+                  </div>
+                  <div>
+                    <img src="/public/img/locker-amenity.jpg" alt="" class="suite-room">
+                      <div class="room-radio">
+                        <input type="checkbox" name="roomType" id="amenity2" value="Locker" class=""><label for="amenity2">Locker's (&#8377;300/-)</label>
+                      </div>
+                  </div>
+                </div>  
+                <a href="#registerPage" class="btn button-third hero-text slider-reveal text-decoration-none p-4 fw-bold" id="roomSubmit" style="background-color: var(--gold-crayola);"><span class="text text-1">Save & Continue</span>
+
+                  <span class="text text-2" aria-hidden="true">Save & Continue</span></a>
+              </form>
+            </div>
+          </div>
+        </section>
+
+      <!-- 
+        #Registration-Details -->
+
+          <section class="hero register-page" id="registerPage">
+            <div class="register-page-content">
+              <div class="advance-registration-form">
+                <div class="advancePayment">
+                  <form class="advance slider-item active">
+                    <h1 class="registration-form-heading section-subtitle slider-reveal">Pay Advance & Confirm Booking</h1>
+                    <dl class="form-inputs hero-title slider-reveal">
+                      <div class="registration-form-inputs text-white fs-2" id="enter-amount-input">
+                        <dt>Enter Amount :</dt>
+                        <dd><input type="number" required class="advance-input-area form-control" id="advanceInput" placeholder="Min.: &#8377;2000/-"> <span class="text-danger">* Advance is mandatory</span></dd>
+                      </div>
+                    </dl>
+                    <button onclick="advanceClick()" class="btn button-third hero-text slider-reveal text-decoration-none pt-4 pb-4 fw-bold ps-5 pe-5" id="advanceBtn" style="background-color: var(--gold-crayola);"><span class="text text-1">Pay Advance</span>
+
+                      <span class="text text-2" aria-hidden="true">Thanks For Paying</span></button>
+                      <dl class="registration-form form-inputs hero-title slider-reveal text-white fs-2" style="margin-top: -15px;">
+                        <div class="registration-form-inputs" style="margin-block: -7px;">
+                          <dt>Customer Name :</dt>
+                          <dd id="fnlName"></dd>
+                        </div>
+                        <div class="registration-form-inputs" style="margin-block: -7px;">
+                          <dt>Check-In Date :</dt>
+                          <dd id="fnlDate"></dd>
+                        </div>
+                        <div class="registration-form-inputs" style="margin-block: -7px;">
+                          <dt>Total No. of Days :</dt>
+                          <dd id="fnlDays"></dd>
+                        </div>
+                        <div class="registration-form-inputs" style="margin-block: -7px;">
+                          <dt>Total No. Of Persons :</dt>
+                          <dd id="fnlPerson"></dd>
+                        </div>
+                        <div class="registration-form-inputs" style="margin-block: -7px;">
+                          <dt>Room Type :</dt>
+                          <dd id="fnlRoom"></dd>
+                        </div>
+                        <div class="registration-form-inputs" style="margin-block: -7px;">
+                          <dt>Amenities :</dt>
+                          <dd id="fnlAmenity"></dd>
+                        </div>
+                        <div class="registration-form-inputs" style="margin-block: -7px;">
+                          <dt>Advance Amount :</dt>
+                          <dd id="fnlAdvance"></dd>
+                        </div>
+                        <div class="registration-form-inputs" style="margin-block: -7px;">
+                          <dt>Balance Amount :</dt>
+                          <dd id="fnlBalance"></dd>
+                        </div>
+                        <div class="registration-form-inputs" style="margin-block: -7px;">
+                          <dt class="text-danger">Total Amount :</dt>
+                          <dd id="fnlPrice"></dd>
+                        </div>
+                      </dl>
+                      <a onclick="FinalClick()"  href="#home"  class="btn button-third hero-text slider-reveal text-decoration-none p-4 fw-bold" style="margin-bottom: -40px; background-color: var(--gold-crayola);"><span class="text text-1">Confirm Booking</span>
+
+                        <span class="text text-2" aria-hidden="true">Confirm Booking</span></a>
+                  </form>
+                </div>
+              </div>
+              <div class="hotel-atten-container">
+                <img src="/public/img/hotel-atten-9.png" alt="" class="register-attendant">
+              </div>
+          </div>
+        </section>
+      </article>
+    </main>
+
+
+    <!-- 
+      - #FOOTER
+    -->
+
+    <footer
+      class="footer section has-bg-image text-center"
+      style="background-image: url('/public/img/suite5.jpg')"
+      id="contact"
+    >
+      <div class="container">
+        <div class="footer-top grid-list">
+          <div class="footer-brand has-before has-after">
+            <a href="#" class="logo  text-decoration-none">
+              <img
+                src="public/img/Brandys-Hotel-Logo.png"
+                width="160"
+                height="50"
+                loading="lazy"
+                alt="Brandy Home"
+              />
+            </a>
+
+            <address class="body-4 text-white">
+              Hotel St, Holy City, Uttar Pradesh, India
+            </address>
+
+            <a
+              href="mailto:atulmishra1997@hotmail.com"
+              class="body-4 contact-link text-decoration-none text-white text-decoration-none"
+              >atulmishra1997@hotmail.com</a
+            >
+
+            <a href="tel:+919120568942" class="body-4 contact-link text-white text-decoration-none"
+              >Booking Request : +91 9120568942</a
+            >
+
+            <p class="body-4 text-white">Open : 08:00 am - 10:00 pm</p>
+
+            <div class="wrapper">
+              <div class="separator"></div>
+              <div class="separator"></div>
+              <div class="separator"></div>
+            </div>
+
+            <p class="title-1 text-white">Get News & Offers</p>
+
+            <p class="label-1 text-white">
+              Subscribe us & Get <span class="span"> 25% Off.</span>
+            </p>
+
+            <form action="" class="input-wrapper">
+              <div class="icon-wrapper text-white">
+                <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+
+                <input
+                  type="email"
+                  name="email_address"
+                  placeholder="Your email"
+                  autocomplete="off"
+                  class="input-field"
+                />
+              </div>
+
+              <button type="submit" class="btn button-third text-decoration-none p-4 fw-bold" style="background-color: var(--gold-crayola);">
+                <span class="text text-1">Subscribe</span>
+
+                <span class="text text-2" aria-hidden="true">Subscribe</span>
+              </button>
+            </form>
+          </div>
+
+          <ul class="footer-list">
+            <li>
+              <a href="#home" class="label-2 footer-link hover-underline text-decoration-none"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a href="#customer" class="label-2 footer-link hover-underline text-decoration-none"
+                >Customer Details</a
+              >
+            </li>
+            <li>
+              <a href="#roomType" class="label-2 footer-link hover-underline text-decoration-none"
+                >Room Type</a
+              >
+            </li>
+            <li>
+              <a href="#amenities" class="label-2 footer-link hover-underline text-decoration-none"
+                >Select Amenities</a
+              >
+            </li>
+            <li>
+              <a href="#registerPage" class="label-2 footer-link hover-underline text-decoration-none"
+                >Advance & Register</a
+              >
+            </li>
+          </ul>
+
+          <ul class="footer-list">
+            <li>
+              <a
+                href="https://www.facebook.com/profile.php?id=100091441811251"
+                target="_blank"
+                class="label-2 footer-link hover-underline text-decoration-none"
+                >Facebook</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/atul_mishra1997/"
+                target="_blank"
+                class="label-2 footer-link hover-underline text-decoration-none"
+                >Instagram</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://twitter.com/brandys_vines1"
+                target="_blank"
+                class="label-2 footer-link hover-underline text-decoration-none"
+                >Twitter</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.youtube.com/channel/UC8HpyjHZaJJ4jN1w3XUakGg"
+                target=""
+                class="label-2 footer-link hover-underline text-decoration-none"
+                >Youtube</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.google.com/maps/place/Atul+Mishra/@25.3845528,83.0273584,17z/data=!4m11!1m3!11m2!2sFD2WU84KoAmnOnAupP2asbr5ztwaiQ!3e1!3m6!1s0x398e2f1588824049:0x1cffffe405b3bcc6!8m2!3d25.384548!4d83.0299333!15sCgEqkgEKZ3JlZW5ob3VzZeABAA!16s%2Fg%2F11v56n3j2w?entry=ttu"
+                target="_blank"
+                class="label-2 footer-link hover-underline text-decoration-none"
+                >Google Map</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-bottom">
+          <p class="copyright">
+            &copy; 2023 Brandy's Hotels . All Rights Reserved | Crafted by
+            <a
+              href="https://github.com/atulmishra1997"
+              target="_blank"
+              class="link text-decoration-none"
+              >Atul Mishra</a
+            >
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- 
+      - # BACK TO TOP
+    -->
+
+    <a
+      href="#top"
+      class="back-top-btn active"
+      aria-label="back to top"
+      data-back-top-btn
+    >
+      <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+    </a>
+
+    <!-- custom js link -->
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+    <script src="src/script.js"></script>
+
+    <!-- ionicon link -->
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
