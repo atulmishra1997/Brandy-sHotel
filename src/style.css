@@ -935,7 +935,7 @@ body.nav-active {
 }
 
 .form-heading::after {
-    content: url("/public/img/separator.svg");
+    content: url("../public/img/separator.svg");
     display: block;
     width: 100px;
     margin-inline: auto;
@@ -973,7 +973,7 @@ body.nav-active {
 /* Room Type */
 
 .room-type {
-    background-image: url("/public/img/suite-room-5.png");
+    background-image: url("../public/img/suite-room-5.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -1032,7 +1032,7 @@ body.nav-active {
 
 
 .amenities {
-    background-image: url("/public/img/suite6.png");
+    background-image: url("../public/img/suite6.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -1051,7 +1051,7 @@ body.nav-active {
 /* Register Page */
 
 .register-page {
-    background-image: url("/public/img/Deluxe-room3.jpg");
+    background-image: url("../public/img/Deluxe-room3.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -1180,7 +1180,7 @@ body.nav-active {
 .footer-brand {
     position: relative;
     padding: 50px 25px;
-    background: var(--smoky-black-1) url('/public/img/footer-form-bg.png');
+    background: var(--smoky-black-1) url('../public/img/footer-form-bg.png');
     background-position: center top;
     background-repeat: repeat;
 }
@@ -1190,7 +1190,7 @@ body.nav-active {
     top: 0;
     width: 15px;
     height: 100%;
-    background-image: url('/public/img/footer-form-pattern.svg');
+    background-image: url('../public/img/footer-form-pattern.svg');
 }
 
 .footer-brand::before { left: 0;}
